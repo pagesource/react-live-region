@@ -1,0 +1,51 @@
+{
+  "name": "react-live-region",
+  "version": "1.0.0",
+  "description": "utility react component for offscreen live region",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.13.0"
+  },
+  "private": false,
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagesource/react-live-region.git"
+  },
+  "keywords": [
+    "accessibility",
+    "aria-live",
+    "live-region",
+    "react-live-region"
+  ],
+  "author": "https://github.com/MajorSaheb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pagesource/react-live-region/issues"
+  },
+  "homepage": "https://github.com/pagesource/react-live-region#readme",
+  "dependencies": {
+    "react": "^16.13.0",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.5.3",
+    "webpack-cli": "^3.3.11"
+  }
+}
