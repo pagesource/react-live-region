@@ -1,6 +1,6 @@
 {
   "name": "react-live-region",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility react component for offscreen live region",
   "main": "build/index.js",
   "peerDependencies": {
